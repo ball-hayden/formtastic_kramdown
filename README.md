@@ -1,8 +1,10 @@
-= Formtastic Markdown
+Formtastic Markdown
+===================
 
 This gem is licensed under the 3-Clause BSD License.
 
-= Installation
+Installation
+============
 
 Add to gemfile:
 
