@@ -1,0 +1,64 @@
+.kramdown .tab-container {
+  display: inline-block;
+  width:   76%;
+  width:   calc(76% + 20px);
+
+  .tab-content {
+    display: inline-block;
+    width:   80%;
+  }
+
+  .tab-pane {
+    display: none;
+  }
+
+  .tab-pane.active {
+    display: block;
+    border:  1px solid #c9d0d6;
+    padding: 10px;
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+
+  .tab-nav {
+    display: inline-block;
+    width:   20%;
+    vertical-align: top;
+
+    .nav {
+      margin-left: 10px;
+    }
+
+    li {
+      width:    100%;
+      height:   27px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+
+    li > a {
+      position: absolute;
+      left:  0px;
+      right: 0px;
+    }
+  }
+
+  textarea {
+    border:  none;
+    padding: 0px;
+    width:   100%;
+  }
+
+  textarea:focus {
+    border: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .hint {
+    margin-left: 10px;
+  }
+}
